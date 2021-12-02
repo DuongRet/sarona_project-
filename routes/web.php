@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/admin/chhornhey/admin', function () {
-    return view('admin.blade.php');
+Route::get('admin/chhornhey/dashboard', function () {
+    return view('admin.chhornhey.dashboard');
 });
