@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('admin/layout/sideNav', function () {
+    return view('admin.layout.sideNav');
+});
 Route::get('admin/chhornhey/dashboard', function () {
     return view('admin.chhornhey.dashboard');
 });
